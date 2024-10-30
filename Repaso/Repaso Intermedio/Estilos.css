@@ -1,0 +1,86 @@
+:root {
+    --color: rgb(119, 190, 248);
+}
+
+img {
+    width: 100px;
+}
+
+body {
+    background-color: #000000;
+}
+
+.h2-form{
+    display: block;
+    height: 30px;
+    color: #fff;
+}
+
+.flex-box {
+    margin: 200px auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(147, 65, 159);
+    border: 2px solid #ffffff;
+    padding: 15px;
+    border-radius: 300px;
+}
+
+.input_form{
+    display: block;
+    background-color: rgba(151, 86, 211, 0.9);
+    padding: 5px;
+    padding-left: 5px;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 30px;
+    width: 200px;
+    border: 1px solid #fff;
+}
+
+.input_form::placeholder{
+    padding-left: 5px;
+    color: #fff;
+}
+
+.send {
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 35px;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.flex-box2 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px auto;
+    background-color: rgb(119, 190, 248);
+    color: #fff;
+    border: 5px solid #fff;
+}
+
+.flex-box2 h2 {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.flex-box2 button {
+    width: 60%;
+    margin: 20px auto;
+    height: 30px;
+    border-radius: 100px;
+    transition: background 0.5s;
+}
+
+.flex-box2 button:hover {
+    background-color: var(--color);
+    color: #fff;
+}
+
